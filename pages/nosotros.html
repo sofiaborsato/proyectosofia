@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nosotros</title>
-    <link rel="stylesheet" href="../css/estilos.css">
     <link rel="shortcut icon" href="../assets/images/heart-svgrepo-com (1).svg" type="image/png" />.
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
     <header class="boda2">
@@ -14,23 +15,41 @@
             <div class="logo">
              <img src="../assets/images/LOGO WEB.png" alt="LOGO.png">
             </div> 
-            <nav>
-                
-                <ul class="barra"> 
-                   <li><a a class="cajita"href="../index.html">Inicio</a></li>
-                   <li><a a class="cajita" href="#">Nosotros</a></li>
-                   <li> <a a class="cajita" href="../pages/nuestraboda.html">Nuestra Boda</a></li>
-                   <li><a a class="cajita"href="../pages/galeria.html">Galeria</a></li>
-                   <li><a a class="cajita"href="../pages/contacto.html">Contacto</a></li>
-                </ul>        
-            </nav>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"> 
+                  <img src="../assets/images/CORAZONCITO ROJO.svg" alt="" width="30" height="24"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 alig">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item ">
+                        <a class="nav-link" href="#">Nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./nuestraboda.html">Nuestra Boda</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./galeria.html">Galeria</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
     </header>
     <main>
         <section>
             <h1 class="titulos"> NOSOTROS</h1>
             <div>
-                <h2 class="texto-boda"> ELLA DIJO QUE SÍ !!! </h2>
-                <p class="texto-boda">Llego el día de la propuesta, era un estado de ansiedad y nerviosismo para Seba mi pareja.
+                <h2 class="elladijosi my-2">ELLA DIJO QUE SÍ</h2>
+                <p class="elladijosi11 my-3">Llego el día de la propuesta, era un estado de ansiedad y nerviosismo para Seba mi pareja.
                 Yo en mi interior siempre lo esperaba, pero no sabría si me podría dar cuenta o sospechar cuando sea el momento en que mi pareja me lo pida. Y realmente ese día no lo sospeche, se dio en un contexto muy natural y nada exagerado por suerte nada vergonzoso o delante de público ya que siempre fui más reservada 
                 y el respeto muy bien ese aspecto. 
                 Muchas veces habíamos hablado de la idea de casarnos, 
@@ -49,45 +68,60 @@
                      
                 </p>
             </div>
-            <div class="imgNovio">
-                <img src="../assets/images/sofi.jpg" alt="imagen 2">
-            </div>
-                <div>
-                    <h2 class="texto-boda"> SOFIA </h2>
-                    <p class="texto-boda">Como relatante de esta historia quiero presentarme, 
-                    tengo 27 años, vivo en la cuidad de Villa María provincia de Córdoba, 
-                    estamos esperando nuestro primer bebe Sara, fruto de nuestro amor de estos nueve años.
-                    Sobre mi personalidad les puedo contar que soy una persona que le gusta la simpleza y
-                    disfrutar de los pequeños momentos en familia que es mi mayor tesoro, me gustan los paseos
-                    improvistos y la comida rica, lo simple de disfrutar una caminata 
-                    o un rico mate con la persona que amas. También me gusta viajar y recorres lugares
-                    lindos para sacar muchas fotos.  
-                    </p>
+            <div class="container-fluid1 my-3">
+                <div class="row my-3">
+                     <div class="col-md-6 col-sm-12">
+                       <img class="fotografias rounded-circle my-3" src="../assets/images/nosotros2" alt="">
+                     </div>
+                     <div class="col-md-6 col-sm-12 d-flex flex-column align-items-center justify-content-center">
+                        <div>
+                            <h2 class="s my-2"> SOFIA </h2>
+                        <p class="sofia"> Como relatante de esta historia quiero presentarme, 
+                            tengo 27 años, vivo en la cuidad de Villa María provincia de Córdoba, 
+                            estamos esperando nuestro primer bebe Sara, fruto de nuestro amor de estos nueve años.
+                            Sobre mi personalidad les puedo contar que soy una persona que le gusta la simpleza y
+                            disfrutar de los pequeños momentos en familia que es mi mayor tesoro.</p>
+                        </div>
+                     </div>
                 </div>
-            <div class="imgNovio">
-                <img src="../assets/images/seba.jpg" alt="imagen 3">
+           </div>
+           <div class="container-fluid1 my-3">
+            <div class="row">
+                 <div class="col-md-6 col-sm-12">
+                   <img class="fotografias rounded-circle" src="../assets/images/nosotros1" alt="">
+                 </div>
+                 <div class="col-md-6 col-sm-12 d-flex flex-column align-items-center justify-content-center">
+                    <div>
+                        <h2 class="s"> SEBASTIAN </h2>
+                    <p class="sofia my-2"> Mi protagonismo en la historia me da el gusto de presentarme, 
+                        tengo 28 años, vivo en la cuidad de Villa María provincia de Córdoba y 
+                        esperamos ansiosos la llegada de nuestra bebita que nacerá pronto. 
+                        Mi personalidad es ser muy perspicaz, soy una persona muy activa y muy inquieta.
+                        Me gusta disfrutar de mi familia, me gusta ayudar a quien lo necesite,
+                        y ser muy servicial con las personas que me rodean en general.</p>
+                    </div>
+                 </div>
             </div>
-              <div>
-                <h2 class="texto-boda"> SEBASTIAN </h2>
-                <p class="texto-boda">Mi protagonismo en la historia me da el gusto de presentarme, 
-                tengo 28 años, vivo en la cuidad de Villa María provincia de Córdoba y 
-                esperamos ansiosos la llegada de nuestra bebita que nacerá pronto. 
-                Mi personalidad es ser muy perspicaz, soy una persona muy activa y muy inquieta.
-                Me gusta disfrutar de mi familia, me gusta ayudar a quien lo necesite,
-                y ser muy servicial con las personas que me rodean en general. No me gusta aburrirme
-                y estar quieto por eso se hacer muchas cosas, me gusta investigar,
-                solucionar y reparar
-                cosas, lo que sea de reparar un ventilador hasta construir una casa,
-                siempre me gusto saber hacer de todo, el ser así me dio mucho conocimiento para hoy día 
-                enfrentar las situaciones de la vida.
-                </p>
-              </div>
-        </section>       
+       </div>
+        <section>
+            <div class="container-fluid3 my-3">
+                <div class="card bg-dark text-white">
+                    <img src="../assets/images/preboda.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title ">FUISTE ,ERES, Y SIEMPRE SERAS MI MAS BONITA CASUALIDAD </h5>
+                    </div>
+                  </div>
+
+
+            </div>
+        </section>
     </main>
     <footer class="foot">
         <a href="https://msng.link/o/?sofia.borsato=ig"><img src="../assets/images/insta chiquito.svg" alt=""></a>
         <a href="https://wa.me/3471623833?text=whatsapp"><img src="../assets/images/whatsapp chiquito.svg" alt=""></a>
         <p> 2022 todos los derechos reservados </p>
-    </footer>   
+    </footer> 
+    <script src="../js/bootstrap.bundle.min.js"> 
+    </script>  
 </body>
 </html>

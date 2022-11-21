@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria</title>
-    <link rel="stylesheet" href="../css/estilos.css">
     <link rel="shortcut icon" href="../assets/images/heart-svgrepo-com (1).svg" type="image/png" />.
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
     <header class="boda3">
@@ -14,25 +15,44 @@
              <div class="logo">
             <img src="../assets/images/LOGO WEB.png" alt="LOGO.png">
             </div> 
-            <nav>
-                <ul class="barra">    
-                   <li><a a class="cajita" href="../index.html">Inicio</a></li>
-                   <li><a a class="cajita" href="./nosotros.html">Nosotros</a></li>
-                   <li> <a a class="cajita" href="./nuestraboda.html">Nuestra Boda</a></li>
-                   <li><a a class="cajita"href="#">Galeria</a></li>
-                   <li><a a class="cajita"href="./contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"> 
+                  <img src="../assets/images/CORAZONCITO ROJO.svg" alt="" width="30" height="24"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item ">
+                        <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./nuestraboda.html">Nuestra Boda</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Galeria</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
     </header>
      <main>
                 <h1 class="titulos"> GALERIA </h1> <!--mi galeria no es dinamica pero en un futuro quiero que este llena de fotos
                 alineadas con mucho estilo y efectos y linkear con un boton para que lleve a un sitio con las fotos que aparecen los 
                 invitados y puedan descargarse la foto a gusto donde aparecian en la fiesta-->
-                <p class="texto-boda">
+                <p class="texto-boda my-2">
                 Esperamos que puedan disfrutar de un breve paseo en imagenes de el día de nuestra boda. 
                 Que con amor seleccionamos estas imágenes para que disfruten.
                 </p>
-        <section class="galeria">          
+        <section class="galeria my-5">          
                     <div class="hijo"><img src="../assets/images/b1.jpg" alt="8"></div>
                     <div class="hijo"><img src="../assets/images/b2.jpg" alt="7"></div>
                     <div class="hijo"><img src="../assets/images/b3.jpg" alt="6"></div>
@@ -60,7 +80,7 @@
                    
                     <!--donde esta enumerado va a ir una corta descripcion de cada foto que elija, estas son contenido maquetado-->
 
-                        <p class="texto-boda">
+                        <p class="texto-boda5 my-3">
                             Grábame como un sello sobre tu corazón; llévame como una marca sobre tu brazo.
                             Fuerte es el amor, como la muerte, y tenaz la pasión, como el sepulcro. 
                             Como llama divina es el fuego ardiente del amor. 
@@ -73,5 +93,7 @@
             <a href="https://wa.me/3471623833?text=whatsapp"><img src="../assets/images/whatsapp chiquito.svg" alt=""></a>
             <p> 2022 todos los derechos reservados </p>
     </footer>
+    <script src="../js/bootstrap.bundle.min.js"> 
+    </script>
 </body>
 </html>

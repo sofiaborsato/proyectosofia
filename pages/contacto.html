@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contacto</title>
+    <link rel="shortcut icon" href="../assets/images/heart-svgrepo-com (1).svg" type="image/png"/>.
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilos.css">
-    <link rel="shortcut icon" href="../assets/images/heart-svgrepo-com (1).svg" type="image/png" />.
 </head>
     <body>
         <header class="boda4">
@@ -14,53 +15,76 @@
             <div class="logo">
              <img src="../assets/images/LOGO WEB.png" alt="LOGO.png">
             </div> 
-                <nav>
-                        <ul class="barra">    
-                           <li><a a class="cajita" href="../index.html">Inicio</a></li>
-                           <li><a a class="cajita"href="./nosotros.html">Nosotros</a></li>
-                           <li> <a a class="cajita" href="./nuestraboda.html">Nuestra Boda</a></li>
-                           <li><a a class="cajita"href="./galeria.html">Galeria</a></li>
-                           <li><a a class="cajita"href="#">Contacto</a></li>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#"> 
+                      <img src="../assets/images/CORAZONCITO ROJO.svg" alt="" width="30" height="24"></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                          </li>
+                          <li class="nav-item ">
+                            <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./nuestraboda.html">Nuestra Boda</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./galeria.html">Galeria</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                          </li>
                         </ul>
-                </nav>
+                      </div>
+                    </div>
+                  </nav>
         </header>
         <main>
             <h1 class="titulos"> CONTACTO </h1> <!--estas imagenes en futuro irian bien alineadas en su tamaño promedio-->
-            <section class="texto-boda">
-                <h2>Buzon de Felicitaciones </h2>
-                <p>Envíanos tus Buenos Deseos ! </p>
-                <br>
-
-                <div>
-                    <h2 class="texto-boda">Regalo de Bodas </h2>
-                    <p>Sin compromisos , Si Algo nos quieren Regalar en efectivo lo Sabremos Apreciar 
-                        Les dejamos un Botón de suscripción para aquellos que quieran que les enviemos por email los Datos Bancarios para colaborar con nuestra Luna de Miel.
-                        Gracias por su presencia en este día tan Especial.</p>
+            <div class="container d-flex ">
+                <div class="row">
+                     <div class="col-md-6 col-sm-12 d-flex">
+                       <img class="fott m-auto rounded-circle" src="../assets/images/DSC-214.jpg" alt="">
+                     </div>
+                     <div class="col-md-6 col-sm-12 d-flex ">
+                        <div class="esp1 my-2 ">
+                        <p class="historia d-flex justify-content-center"> “En cada historia de amor, hay dos momentos importantes: el día que conoces a la persona de tus sueños y el día que te casas con ella. Es muy difícil explicar con palabras la alegría que sentimos 
+                            por compartir con ustedes este día tan especial.”</p>
+                        </div>
+                     </div>
                 </div>
+           </div>
                  <br>
-                <form> <!--formulario utilizado para los buenos deseos de la boda y
-                    para que la gente colabore en la luna de miel-->
-                    <div>
-                    <input type="text"placeholder="Nombre *"required>
-                    </div>
-                    <br>
-                    <div>
-                    <input type="email" placeholder="Email*"required> 
-                    </div>
-                    <br>
-                    <input type="text" placeholder="Mensaje*"requiered>
-                    <br>
-                    <div>
-                     <input type="checkbox" name="" value="1">
-                     <label for="indique"> Quiero Colaborar con la Luna de Miel </label>
-                    </div>
-                    <br>
-                    <div>
-                    <input type="submit" value="ENVIAR">
-                    <input type="reset" value="ELIMINAR">
-                    </div>
-                </form>
             </section>
+                <div>
+                <h3 class="textoregalo"> Regalo de Bodas </h3>
+                <h2 class="textob my-3"> Buzon de Felicitaciones </h2>
+                <p class="texton">¡ Envíanos tus Buenos Deseos ! </p>
+                <p class="P">Sin compromisos , Si Algo nos quieren Regalar en efectivo lo Sabremos Apreciar 
+                    Les dejamos un Botón de suscripción para aquellos que quieran que les enviemos por email los Datos Bancarios para colaborar con nuestra Luna de Miel.
+                    Gracias por su presencia en este día tan Especial.</p>
+                </div>
+                 <form class="for">
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Nombre</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">Gracias por Ser parte de Nuestra Boda.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Email</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Deseo Suscribirme</label>
+                    </div>
+                    <button type="submit" class="btn btn-success my-3">Enviar</button>
+                  </form>
         </main>
          <br>
         <footer class="foot">
@@ -69,5 +93,7 @@
             que te lleve a los enlaces de mis redes-->
             <p> 2022 todos los derechos reservados </p>
         </footer>
+        <script src="../js/bootstrap.bundle.min.js"> 
+        </script>
     </body>
 </html>

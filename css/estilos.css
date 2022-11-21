@@ -24,6 +24,7 @@
     font-size: 3rem;
     text-align: center;
     font-family: 'Nanum Myeongjo', serif;
+    margin-top: auto;
 
 }
 
@@ -76,8 +77,8 @@ nav ul li a:hover {
 .logo{
     padding: 1%;   
     height: 30%;
-    display: inline-block;
-}
+    display: inline-block;}
+
 
 .texto-boda{
     color: rgba(0, 0, 0, 0.836);
@@ -129,7 +130,7 @@ nav ul li a:hover {
 
 .foot{
     text-align: center;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
 }
 
 .boda{
@@ -137,6 +138,7 @@ background-image: url(./../assets/images/foto\ sofi.jpg);
 background-repeat:no-repeat;
 background-size:cover;
 background-attachment: fixed;
+
 
 
 }
@@ -148,6 +150,7 @@ background-attachment: fixed;
 
 
 
+
 }
 
 .boda2{
@@ -155,7 +158,7 @@ background-attachment: fixed;
     background-repeat:no-repeat;
     background-size:cover;
     background-attachment: fixed;
-   
+    
        
 }
 .boda3{
@@ -164,20 +167,23 @@ background-attachment: fixed;
     background-size:cover;
     background-attachment: fixed;
     
+    
 }
 .boda4{
     background-image: url(./../assets/images/head\ 181.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     background-attachment: fixed;
+   
     
 }
 
 .foot{
-    background-image: url(./../assets/images/foto\ sofi.jpg);
+    background-image: url(./../assets/images/foto\ sofi.jpg );
     background-repeat:no-repeat;
     background-size:cover;
-    background-attachment: fixed;
+    margin: auto;
+
 }
 
 .barra li{
@@ -204,12 +210,15 @@ background-attachment: fixed;
     display:inline-block;
     margin: 10px;
     border-color: rgba(218, 184, 31, 0.473);
-    border;border-radius: 10px;
+    border:border-radius: 10px;
     
 }
 .texto-boda{
     line-height: 1.6;
     letter-spacing: 02px;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Nanum Myeongjo', serif;
 }     
 .texto-n{
     line-height: 1.9;
@@ -217,8 +226,8 @@ background-attachment: fixed;
 }
 
 .galeria{
-    background-color: rgba(255, 236, 93, 0.404);
-    width: 90%
+    background-color: rgba(255, 252, 226, 0.897);
+    width: 100%
     margin 0 auto;
     display:flex;
     flex-wrap: wrap;
@@ -237,7 +246,7 @@ background-attachment: fixed;
 .texto-boda{
     margin-bottom: 15px;
     font-size: 1.3rem;
-    font-family: 'Hind', sans-serif;
+    font-family: 'Nanum Myeongjo', serif;
     
 }
 
@@ -245,7 +254,213 @@ background-attachment: fixed;
     font-size: 1.7rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+.row{
+    line-height: 1.6;
+    letter-spacing: 02px;
+    font-family: 'Nanum Myeongjo', serif;
+    border-color: rgb(3, 61, 27);
+    border-radius: 3px;
+
+}
+
+.Img{
+    border-color: black;
+}
+
+.p{
+    font-family: 'Nanum Myeongjo', serif;
+    line-height: 1.6;
+    letter-spacing: 02px;
+    color: rgba(26, 27, 25, 0.685);
+    margin: 10px;
+    padding-right: 70px;
+    
+}
+    
+.textoregalo{
+    font-family: 'Nanum Myeongjo', serif;
+    color: rgba(12, 97, 12, 0.959);
+}
+
+.buzon{
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 2rem;
+    background-color: aqua;
     
 
+}
+.form-label{
+    font-family: 'Nanum Myeongjo', serif;
+    color: rgba(23, 163, 18, 0.788);
+    border-bottom: 3px;
 
+}
+.container{
+    font-family: 'Nanum Myeongjo', serif;
+    color: rgba(8, 37, 7, 0.911);
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(168, 189, 54, 0.473);
+    margin: 5%;
+    padding: 5%;
+    overflow:hidden;
+    object-fit: cover;
+    height: 110vh;
+    width: 100%;
+    background-color: rgb(231, 241, 169);
+    flex-wrap: wrap;
+    
+    
+}
 
+.esp1{
+    margin: 5%;
+    padding: 5%;
+}
+
+.fott{
+    margin: 5%;
+    padding: 5%;
+    margin-top: 10%; 
+
+}
+.s{
+    
+    text-align: left;
+    font-family: 'Nanum Myeongjo', serif;
+    margin: 10%;
+   
+
+} 
+
+.sofia{
+  
+    text-align: left;
+    color: rgba(0, 0, 0, 0.89);
+    margin: 10%;
+}
+.fotografias{
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+    margin: 6%;
+    
+    
+}
+
+.elladijosi{
+    
+    color: rgba(0, 0, 0, 0.89);
+    font-family: 'Nanum Myeongjo', serif;
+    text-align: left;
+    margin:50%
+    
+}
+
+.elladijosi11{
+   
+    text-align: left;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: xx-large;
+    color: rgba(8, 37, 7, 0.911);
+    margin: 80%;
+    padding: 5%;
+
+}
+
+.fott {
+    height: 70vh
+    objec-fit: cover;
+    width: 400%
+    
+}
+   
+.row{
+
+    width: 80%
+    margin auto;
+}
+    
+.texto-n{
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.casamiento{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+}
+
+.textof{
+    font-family: 'Nanum Myeongjo', serif;
+    color: rgba(8, 37, 7, 0.911);
+    
+}
+
+.elladijosi{
+    margin: auto;
+}
+.elladijosi11{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3vh;
+    margin: auto;
+
+}
+.vision{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    color: rgba(12, 97, 12, 0.959);
+    font-size: 4vh;
+}
+
+.texto-boda5{
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 4vh;
+
+}
+
+.texto-boda2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    color: rgba(16, 17, 16, 0.959);
+    font-size: 4vh;
+}
+.for{
+    width: 50%;
+}
+
+.textoregalo{
+    
+    font-size: 2.5rem;
+    margin: auto;
+    text-align: center;
+   
+}
+
+.textob{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+}
+
+.container-fluid{
+    background-color: rgba(241, 241, 241, 0.719);
+}
+.container-fluid1{
+    background-color: rgba(230, 228, 225, 0.288);
+}
+.card-title{
+    font-family: 'Nanum Myeongjo', serif;
+    text-align:center;
+    color: rgb(245, 241, 236);
+    background-color: rgba(61, 59, 59, 0.836);
+    
+}
+
+.historia{
+    font-family: 'Nanum Myeongjo', serif;
+    text-align: left;
+    font-size: larger;
+
+}
+    
