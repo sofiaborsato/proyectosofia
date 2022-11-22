@@ -134,7 +134,8 @@ nav ul li a:hover {
 .foot{
     text-align: center;
     letter-spacing: 4px;
-}
+    background-image: linear-gradient(to right top, #eaecb3, #ffe5bd, #ffe2d1, #ffe5e6, #ffeaf4, #fbebf6, #f7ecf7, #f3edf7, #ede9f1, #e7e5ea, #e1e0e3, #dcdcdc);
+    }
 
 .boda{
 background-image: url(./../assets/images/foto\ sofi.jpg);
@@ -182,7 +183,7 @@ background-attachment: fixed;
 }
 
 .foot{
-    background-image: url(./../assets/images/foto\ sofi.jpg );
+    
     background-repeat:no-repeat;
     background-size:cover;
     margin: auto;
@@ -312,11 +313,11 @@ background-attachment: fixed;
     justify-content: space-evenly;
     align-items: center;
     background-color: rgba(168, 189, 54, 0.473);
-    margin: 8%;
-    padding: 5%;
+    margin: 6%;
+    padding: auto;
     object-fit: cover;
-    height: 130vh;
-    width: 100%;
+    height: 125vh;
+    width: 90%;
     background-color: rgb(231, 241, 169);
     flex-wrap: wrap;
     
@@ -332,6 +333,13 @@ background-attachment: fixed;
     margin: 5%;
     padding: 5%;
     margin-top: 10%; 
+    transition: transform 2s;
+
+}
+
+.fott:hover{ transform: translate(30px, 30px); scale: (2,2);
+    
+    
 
 }
 .s{
@@ -371,12 +379,13 @@ background-attachment: fixed;
 
 .elladijosi11{
    
-    text-align: left;
-    font-family: 'Nanum Myeongjo', serif;
-    font-size: xx-large;
+
     color: rgba(8, 37, 7, 0.911);
     margin: 80%;
     padding: 5%;
+    font-size: 2rem;
+    font-family: 'Nanum Myeongjo', serif;
+    text-align: left;
 
 }
 
@@ -402,7 +411,7 @@ background-attachment: fixed;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin: 5%;
     color: rgba(16, 17, 16, 0.959);
-    font-size: 4vh;
+    font-size: 3vh;
     text-align: left;
 }
 
@@ -417,8 +426,10 @@ background-attachment: fixed;
 }
 .elladijosi11{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 3vh;
+    font-size: 2.5vh;
     margin: auto;
+    text-align: center;
+
 
 }
 .vision{
@@ -438,7 +449,7 @@ background-attachment: fixed;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin: 5%;
     color: rgba(16, 17, 16, 0.959);
-    font-size: 4vh;
+    font-size: 3vh;
     text-align: left;
 }
 .for{
@@ -532,12 +543,12 @@ background-attachment: fixed;
     margin: 7%;
 }
 .btn{
-    color: rgb(253, 246, 246);
+    color: rgba(27, 26, 26, 0.726);
     margin: auto;
     justify-content: right;
-    background-color: rgba(187, 70, 70, 0.801);
+    background-image: linear-gradient(to right top, #acbbaa, #c0b8a1, #d3b4a6, #dab1b9, #ceb5d2);
     font-size: x-large;
-    width: 16%;
+    width: 25%;
     
 }
 .form-label{
@@ -567,6 +578,11 @@ background-attachment: fixed;
     background-color: rgba(187, 70, 70, 0.205);
     color: rgb(255, 254, 251);
     font-family: 'Nanum Myeongjo', serif;
+    transition: transform 2s;
+
+}
+
+.card:hover{ transform: translate(20px, 20px); scale: (2,2);
 
 }
 .card-body{
@@ -582,4 +598,10 @@ background-attachment: fixed;
 
 .card-body{
     color: bisque;
+}
+
+.icon{
+    display: inline-block;
+    font-size: 44px;
+    animation: float infinite 4s ease-in-out;
 }
