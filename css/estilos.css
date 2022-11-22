@@ -143,17 +143,12 @@ background-repeat:no-repeat;
 background-size:cover;
 background-attachment: fixed;
 
-
-
 }
 .boda1{
     background-image: url(./../assets/images/head\ 133.jpg);
 background-repeat:no-repeat;
 background-size:cover;
 background-attachment: fixed;
-
-
-
 
 }
 
@@ -162,8 +157,7 @@ background-attachment: fixed;
     background-repeat:no-repeat;
     background-size:cover;
     background-attachment: fixed;
-    
-       
+        
 }
 .boda3{
     background-image: url(./../assets/images/head\ 169.jpg);
@@ -177,9 +171,7 @@ background-attachment: fixed;
     background-image: url(./../assets/images/head\ 181.jpg);
     background-repeat:no-repeat;
     background-size:cover;
-    background-attachment: fixed;
-   
-    
+    background-attachment: fixed;  
 }
 
 .foot{
@@ -187,7 +179,6 @@ background-attachment: fixed;
     background-repeat:no-repeat;
     background-size:cover;
     margin: auto;
-
 }
 
 .barra li{
@@ -232,7 +223,6 @@ background-attachment: fixed;
     margin: 10%;
     color:rgb(3, 61, 27);
     font-size: 4rem;
-
 }
 
 .galeria{
@@ -271,7 +261,6 @@ background-attachment: fixed;
     font-family: 'Nanum Myeongjo', serif;
     border-color: rgb(3, 61, 27);
     border-radius: 3px;
-
 }
 
 .Img{
@@ -284,8 +273,7 @@ background-attachment: fixed;
     letter-spacing: 02px;
     color: rgba(26, 27, 25, 0.685);
     margin: 10px;
-    padding-right: 70px;
-    
+    padding-right: 70px; 
 }
     
 .textoregalo{
@@ -298,7 +286,6 @@ background-attachment: fixed;
     font-size: 2rem;
     background-color: aqua;
     
-
 }
 .form-label{
     font-family: 'Nanum Myeongjo', serif;
@@ -317,11 +304,8 @@ background-attachment: fixed;
     padding: auto;
     object-fit: cover;
     height: 125vh;
-    width: 90%;
-    background-color: rgb(231, 241, 169);
+    width: 100%;
     flex-wrap: wrap;
-    
-    
 }
 
 .esp1{
@@ -335,25 +319,18 @@ background-attachment: fixed;
     margin-top: 10%; 
     transition: transform 2s;
     width: 100%;
-
 }
 
 .fott:hover{ transform: translate(30px, 30px); scale: (2,2);
-    
-    
-
 }
 .s{
     
     text-align: left;
     font-family: 'Nanum Myeongjo', serif;
     margin: 10%;
-   
-
 } 
 
 .sofia{
-  
     text-align: left;
     color: rgba(0, 0, 0, 0.89);
     margin: 10%;
@@ -362,43 +339,31 @@ background-attachment: fixed;
     justify-content: center;
     text-align: center;
     width: 90%;
-    margin: 6%;
-    
-    
+    margin: 6%; 
 }
 
 .elladijosi{
-    
     color: rgba(0, 0, 0, 0.89);
     font-family: 'Nanum Myeongjo', serif;
     text-align: center;
-    
-    
-    
-    
 }
 
 .elladijosi11{
-   
-
     color: rgba(8, 37, 7, 0.911);
     margin: 80%;
     padding: 5%;
     font-size: 2rem;
     font-family: 'Nanum Myeongjo', serif;
     text-align: left;
-
 }
 
 .fott {
     height: 70vh
     objec-fit: cover;
-    width: 400%
-    
+    width: 400%   
 }
    
 .row{
-
     width: 80%
     margin auto;
 }
@@ -408,7 +373,6 @@ background-attachment: fixed;
 }
 
 .casamiento{
-   
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin: 5%;
     color: rgba(16, 17, 16, 0.959);
@@ -419,7 +383,6 @@ background-attachment: fixed;
 .textof{
     font-family: 'Nanum Myeongjo', serif;
     color: rgba(8, 37, 7, 0.911);
-    
 }
 
 .elladijosi{
@@ -430,8 +393,6 @@ background-attachment: fixed;
     font-size: 2.5vh;
     margin: auto;
     text-align: center;
-
-
 }
 .vision{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -443,7 +404,6 @@ background-attachment: fixed;
 .texto-boda5{
     font-family: 'Nanum Myeongjo', serif;
     font-size: 4vh;
-
 }
 
 .texto-boda2{
@@ -457,12 +417,10 @@ background-attachment: fixed;
     width: 50%;
 }
 
-.textoregalo{
-    
+.textoregalo{ 
     font-size: 2.5rem;
     margin: auto;
     text-align: center;
-   
 }
 
 .textob{
@@ -482,15 +440,13 @@ background-attachment: fixed;
     font-family: 'Nanum Myeongjo', serif;
     text-align:center;
     color: rgb(245, 241, 236);
-    background-color: rgba(61, 59, 59, 0.836);
-    
+    background-color: rgba(61, 59, 59, 0.836); 
 }
 
 .historia{
     font-family: 'Nanum Myeongjo', serif;
     text-align: left;
     font-size: larger;
-
 }
  
 .iframe{
@@ -510,7 +466,6 @@ background-attachment: fixed;
     text-align: center;
     font-family: 'Nanum Myeongjo', serif;
     color: rgba(8, 37, 7, 0.911);
-
 }
 
 .texto-bodau{
@@ -549,8 +504,7 @@ background-attachment: fixed;
     justify-content: right;
     background-image: linear-gradient(to right top, #acbbaa, #c0b8a1, #d3b4a6, #dab1b9, #ceb5d2);
     font-size: x-large;
-    width: 25%;
-    
+    width: 25%;  
 }
 .form-label{
     color: brown;
@@ -567,9 +521,6 @@ background-attachment: fixed;
    margin: 5%;
    width: 70%;
    height: 10%;
-   
-
-
 }
 
 .p{
@@ -580,7 +531,6 @@ background-attachment: fixed;
     color: rgb(255, 254, 251);
     font-family: 'Nanum Myeongjo', serif;
     transition: transform 2s;
-
 }
 
 .card:hover{ transform: translate(20px, 20px); scale: (2,2);
