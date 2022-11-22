@@ -334,6 +334,7 @@ background-attachment: fixed;
     padding: 5%;
     margin-top: 10%; 
     transition: transform 2s;
+    width: 100%;
 
 }
 
@@ -600,8 +601,3 @@ background-attachment: fixed;
     color: bisque;
 }
 
-.icon{
-    display: inline-block;
-    font-size: 44px;
-    animation: float infinite 4s ease-in-out;
-}
